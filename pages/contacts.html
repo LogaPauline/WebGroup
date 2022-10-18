@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Контакты</title>
+</head>
+<body class="page">
+
+    <script defer src="../js/popups.js"></script>
+
+
+    <div class="popup popup-open">
+        <div class="login-popup-body">
+            <p class="text-login-popup">Войти на сайт</p>
+            <form>
+                <input placeholder="Логин" type="text" name="login">
+                <input placeholder="Пароль" type="password" name="password">
+                <button class="login-popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </div>  
+    
+    <header class="header">
+        <a class="logo-link" href="../index.html"><img class="logo" src="../picture/logo.svg" alt="Логотип Инополис"></a>
+        <ul class="site-menu">
+            <li ><a class="menu-link" href="../index.html">Главная</a></li>
+            <li ><a class="menu-link" href="../pages/students.html">Студенты</a></li>
+            <li ><a class="menu-link" href="../pages/about.html">О курсе</a></li>
+            <li ><a class="menu-link active-link" href="../pages/contacts.html">Контакты</a></li> 
+        </ul>
+        <a class="login-button" href="picture/logo.svg">Войти</a>
+    </header>
+
+    <main class="main main-contact">
+        <h1 class="main-heading map-h">Как нас найти 🗺️️</h1>
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.520526%2C59.902495&utm_medium=mapframe&utm_source=maps&z=10" style="color:#eee;font-size:12px;position:absolute;top:14px;">Санкт‑Петербург — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUZ5NqC2D" width="1268" height="370" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <h2 class="map-h2">Наши контакты</h2>
+        <address class="address">
+            <p class="text">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p><br>
+            <a class="tel" href="tel:+78125555555">Тел: +7 (812) 555-55-55</a>
+        </address>    
+    </main>
+    
+    <footer class="footer">
+        <p class="copywrite">2022 &copy; <a class="link" href="https://innopolis.com/"> учебный центр</a></p>
+    </footer>
+</body>
+</html>
