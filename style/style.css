@@ -472,6 +472,13 @@ main.main-about {
     
 }
 
+.avatar {
+    width: 100%;
+    max-width: 200px;
+    max-height: 270px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 1250px) {
     .main {
         padding: 0 2vw;
