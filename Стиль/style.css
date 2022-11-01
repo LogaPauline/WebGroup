@@ -425,59 +425,6 @@ main.main-about {
 }
 
 
-/* о студенте logap*/
-
-.contant {
-    width: 100%;
-    display: flex;
-    gap: 2vw;
-    margin-bottom: 3vw;
-    justify-content: center;
-
-}
-
-.logap-photo {
-    width: 100%;
-    max-width: 323px;
-    max-height: 430.67px;
-    object-fit: cover;
-    border-radius: 0px 50px 0px 50px;
-}
-
-.logap-photo2 {
-    width: 100%;
-    max-width: 323px;
-    max-height: 430.67px;
-    object-fit: cover;
-    border-radius: 50px 0px 50px 0px;
-    
-    
-}
-
-.info-page {
-    width: 100%;
-    max-width: 538px;
-    display: flex;
-    flex-direction: column;
-    gap: 2vw;
-}
-
-.form{
-    width: 100%;
-    max-width: 700px;
-    height: 10px;
-    background: #213b7e;
-    border-radius: 0px 0px 50px 0px;
-    margin: 10px 0;
-    
-}
-
-.avatar {
-    width: 100%;
-    max-width: 200px;
-    max-height: 270px;
-    object-fit: cover;
-}
 
 @media screen and (max-width: 1250px) {
     .main {
